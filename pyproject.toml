@@ -1,0 +1,12 @@
+[project] 
+name = "freellmapi-updater" 
+version = "0.1.0" 
+description = "Auto-update FreeLLMAPI from GitHub releases" 
+requires-python = ">=3.14" 
+dependencies = [ 
+    "requests>=2.32.0", 
+    "packaging>=24.0", 
+] 
+ 
+[tool.uv] 
+python-preference = "only-managed" 

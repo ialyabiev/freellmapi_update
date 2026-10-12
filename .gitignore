@@ -1,0 +1,23 @@
+# Python 
+ 
+venv/ 
+# Logs 
+build/ 
+dist/ 
+*.egg-info/ 
+*.so 
+*.py[cod] 
+ 
+# Virtual environments 
+logs/ 
+ 
+# UV 
+ 
+.uv/ 
+.env 
+# Secrets 
+
+# temp
+~*
+*~
+.agnes
